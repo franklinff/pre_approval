@@ -1,0 +1,2 @@
+<a href="{{ route('role.edit', $roles->id) }}" class="btn btn-secondary">Edit</a>
+<a href="javascript:void(0);" class="btn btn-secondary" onclick="deleteRoles('{{ route('role.delete', $roles->id) }}')">Delete</a>

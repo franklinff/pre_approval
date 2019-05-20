@@ -1,0 +1,2 @@
+<a href="{{ route('company.edit', $company_details->id) }}" class="btn btn-secondary">Edit</a>
+<a href="javascript:void(0);" class="btn btn-secondary" onclick="deleteCompany('{{ route('company.delete', $company_details->id) }}')">Delete</a>
